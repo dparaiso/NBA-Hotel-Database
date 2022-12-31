@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>  
+        <head> 
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+                <style type="text/css"> 
+
+                .container {
+                    width:600px;
+                    height:190px;
+
+                    padding-top:90px;
+                    padding-left:950px;
+                    padding-right:700px;
+                }
+                #st-box {
+                    
+                    width:180px;
+                    height:160px;
+                }
+
+                #white-box{
+                    background: (255, 87, 51, 0.3);
+        
+                }
+                h1 {
+                    background-color: rgb(224, 146, 58);
+                    color: white;  
+                }
+        
+                .button_css {   
+                cursor: pointer;
+                background-color: rgb(224, 146, 58);
+                border: solid rgb(224, 146, 58);
+                transition-duration: 0.4s;
+                border-radius: 4px;
+                color: white;
+                width: 200px;
+                height: 50px;
+                }
+                .button_css:hover {
+                    background-color: white;
+                    color: black;
+                }
+                .button_css:active {
+                    background-color: rgb(224, 146, 58);
+                    border: solid rgb(224, 146, 58);
+                    transform: translateY(4px);
+                }
+                .submit_css {   
+                    cursor: pointer;
+                    background-color: rgb(224, 146, 58);
+                    border: solid rgb(224, 146, 58);
+                    transition-duration: 0.4s;
+                    border-radius: 4px;
+                    color: white;
+                    width: 70px;
+                    height: 20px;
+                }
+                .submit_css:hover {
+                    background-color: white;
+                    color: black;
+                }
+                .submit_css:active {
+                    background-color: rgb(224, 146, 58);
+                    transform: translateY(4px);
+                }
+        
+                .head_css {
+                    font-family: 'Verdana';
+                    font-size: 50px;
+                    background-color:rgb(214, 138, 50);
+                    color: white;
+                }
+                
+                .head_title {
+                    float:right;
+                    font-family: 'Verdana';
+                    font-size: 30px;
+                    color: white;
+                }
+                body {
+                    background-image: url('nba1.jpg');
+                    background-repeat: no-repeat;
+                    /* background-attachment: fixed; */
+                    background-size: cover;
+                }
+                #selection {
+                    /* background-color: #4d4d4d; */
+                    /* width: 60%; */
+                    height: 50px;
+                    margin: auto;
+                    position: absolute;
+                    top: 470px;
+                    right: 45%; 
+        
+                    /*This is where it is changed as well as the line above*/
+                }
+                </style> 
+         </head>
+         
+        <center> <h1 class = "head_css">NBA Hotel Management</h1></center>
+        <center> <h3 class = "head_title">What are you here for?</h3></center>
+          
+        <div class="container">
+
+        <div id="st-box">    
+
+                <form action="login.php" method="post">
+                        <br>
+                        <input style="height:60px; width:150px; font-size:20px;" type="submit" value="Hotel Staff" class = "submit_css"> 
+                </form>
+
+                <form action="p7.php" method="post">
+                        <br>
+                        <input style="height:60px; width:150px; font-size:20px;" type="submit" value="Booking" class = "submit_css"> 
+                </form>
+
+                <form action="Media.php" method="post">
+                        <br>
+                        <input style="height:60px; width:150px; font-size:20px;" type="submit" value="Media" class = "submit_css"> 
+                </form>
+
+                <form action="Fans.html" method="post">
+                        <br>
+                        <input style="height:60px; width:150px; font-size:20px;" type="submit" value="Fans" class = "submit_css"> 
+                </form>
+        </div>
+        </div>
+
+</html>
