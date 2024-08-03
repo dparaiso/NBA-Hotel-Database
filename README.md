@@ -1,6 +1,6 @@
-# CMPT354
+## NBA Covid Hotel Management Database
+videos of the project available on request.
 
-##NBA Hotel Management Database
 References 
 <ul>
 <li>https://www.fundaofwebit.com/post/php-crud-using-bootstrap-5-example</li>
